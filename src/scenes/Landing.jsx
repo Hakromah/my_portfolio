@@ -83,22 +83,22 @@ const Landing = ({ setSelectedPage }) => {
 					}}
 				>
 					<p className="text-3xl md:text-4xl font-playfair z-10 text-center md:text-start">
-						Hi, I'm Hassan{' '}
-						<span
+						Hi, my name's Hassan{' '}
+						{/* <span
 							className="xs:relative xs:text-blue-400 xs:font-semibold z-20
 								before:absolute before:-left-[25px]
 								before:-top-[30px] before:z-[-1] xs:before:flex items-center"
 						>
 							Kromah
-						</span>
+						</span> */}
 					</p>
 
 					<h2 className="mt-6 mb-7 md:mb-20 text-center md:text-start">
 						<p className="text-2xl md:text-3xl font-playfair font-semibold mb-5">
-							I'm,
-						</p>
-						<p className="text-2xl md:text-3xl text-green-300">
-							FRONT-END DEVELOPER
+							I'm a{' '}
+							<span className="text-2xl md:text-3xl text-green-300">
+								FRONT-END DEVELOPER
+							</span>
 						</p>
 					</h2>
 				</motion.div>

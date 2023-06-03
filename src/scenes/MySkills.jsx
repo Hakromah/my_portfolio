@@ -44,11 +44,13 @@ const MySkills = () => {
 							/>
 						</div>
 					) : (
-						<img
-							className="z-10 max-w-[600px] h-[250px] w-[400px] animate-pulse"
-							src={skillsimag}
-							alt="skillis_image"
-						/>
+						<div className="flex justify-center px-6 items-center">
+							<img
+								className="z-10 max-w-[350px] h-[250px] px-6 animate-pulse"
+								src={skillsimag}
+								alt="skillis_image"
+							/>
+						</div>
 					)}
 				</div>
 			</div>
@@ -72,7 +74,7 @@ const MySkills = () => {
 							<p className="font-playfair font-semibold text-3xl mt-3 px-6 pt-4">
 								Familiar with
 							</p>
-							<p className="mt-5 justify-center text-2xl px-6  h-[125px]">
+							<p className="mt-3 justify-center text-2xl px-6 pb-8">
 								Javascript, React.js, Typescript, Next.js
 							</p>
 						</div>
@@ -96,7 +98,7 @@ const MySkills = () => {
 							<p className="font-playfair font-semibold text-3xl mt-3 px-6 pt-4">
 								Some Front-End Technologies
 							</p>
-							<p className="mt-5 px-6 h-[90px] text-2xl">
+							<p className="mt-2 px-6 min-h-[90px] text-xl pb-6">
 								HTML, CSS, SASS, Tailwind, Bootstrap, nmp
 							</p>
 						</div>

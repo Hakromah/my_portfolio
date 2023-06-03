@@ -77,7 +77,9 @@ const Projects = () => {
 					{ProjectsApi.map((item, index) => (
 						<div
 							key={index}
-							className="hover:ease-in-out hover:overflow-hidden flex justify-center items-center duration-500 max-w-[400px] h-[350px] px-4 relative"
+							className="hover:ease-in-out hover:overflow-hidden
+							flex justify-center items-center duration-500
+							max-w-[400px] h-[350px] px-4  relative mb-6"
 						>
 							<div
 								className="absolute h-[100%] w-full opacity-0 hover:opacity-90
