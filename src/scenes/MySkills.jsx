@@ -59,7 +59,7 @@ const MySkills = () => {
 			<div className="md:flex justify-between gap-25">
 				{/* EXPERIENCE */}
 				<motion.div
-					className="md:w-1/3 mt-10 px-6 "
+					className="md:w-1/3 mt-10 px-6 h-"
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true, amount: 0.5 }}
@@ -74,7 +74,7 @@ const MySkills = () => {
 							<p className="font-playfair font-semibold text-3xl mt-3 px-6 pt-4">
 								Familiar with
 							</p>
-							<p className="mt-3 justify-center text-2xl px-6 pb-8">
+							<p className="mt-3 justify-center text-2xl px-6 pb-8 min-h-[120px]">
 								Javascript, React.js, Typescript, Next.js
 							</p>
 						</div>
@@ -122,7 +122,7 @@ const MySkills = () => {
 							<p className="font-playfair font-semibold text-3xl mt-3 px-6">
 								Backend Features
 							</p>
-							<p className="mt-5 px-6 h-[130px] text-2xl">
+							<p className="mt-5 px-6 h-[120px] text-2xl">
 								Node.js(Express), Firebase
 							</p>
 						</div>

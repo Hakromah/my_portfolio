@@ -82,30 +82,27 @@ const Landing = ({ setSelectedPage }) => {
 						visible: { opacity: 1, x: 0 },
 					}}
 				>
-					<p className="text-3xl md:text-4xl font-playfair z-10 text-center md:text-start">
-						Hi, my name's Hassan{' '}
-						{/* <span
+					<p className="text-3xl md:text-4xl font-playfair z-10 text-center md:text-start mb-6">
+						Hi, my name's {' '}
+						<span
 							className="xs:relative xs:text-blue-400 xs:font-semibold z-20
 								before:absolute before:-left-[25px]
 								before:-top-[30px] before:z-[-1] xs:before:flex items-center"
 						>
-							Kromah
-						</span> */}
+							Hassan
+						</span>
 					</p>
-
-					<h2 className="mt-6 mb-7 md:mb-20 text-center md:text-start">
-						<p className="text-2xl md:text-3xl font-playfair font-semibold mb-5">
-							I'm a{' '}
-							<span className="text-2xl md:text-3xl text-green-300">
-								FRONT-END DEVELOPER
-							</span>
-						</p>
-					</h2>
+					<p className="text-2xl md:text-3xl font-playfair font-semibold mb-5">
+						I'm a{' '}
+						<span className="text-xl md:text-2xl text-green-300">
+							FRONT-END DEVELOPER
+						</span>
+					</p>
 				</motion.div>
 
 				{/* CALL TO ACTION */}
 				<motion.div
-					className="flex mt-5 justify-center md:justify-start"
+					className="flex mt-12 justify-center md:justify-start"
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true, amount: '0.5' }}
@@ -129,7 +126,8 @@ const Landing = ({ setSelectedPage }) => {
 						href="#contact"
 					>
 						<div
-							className="bg-deep-blue second_bg hover:text-red-300 transition duration-500 w-full h-full flex items-center
+							className="bg-deep-blue second_bg hover:text-red-300
+							transition duration-500 w-full h-full flex items-center
 								justify-center font-playfair px-10"
 						>
 							We can talk.

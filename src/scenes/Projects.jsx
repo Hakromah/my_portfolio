@@ -62,7 +62,7 @@ const Projects = () => {
 			</motion.div>
 
 			{/* PROJECTS */}
-			<div className="flex justify-center">
+			<div className="flex justify-center flex-wrap">
 				<motion.div
 					className="flex-col gap-6 sm:grid sm:grid-cols-3 sm:h-full"
 					initial="hidden"
@@ -82,7 +82,7 @@ const Projects = () => {
 							max-w-[400px] h-[350px] px-4  relative mb-6"
 						>
 							<div
-								className="absolute h-[100%] w-full opacity-0 hover:opacity-90
+								className="absolute h-full w-full opacity-0 hover:opacity-90
 								 transition duration-500 bg-purple-300 z-30 flex flex-col justify-start items-start
 								 text-center p-12 text-deep-blue"
 							>
@@ -98,7 +98,7 @@ const Projects = () => {
 								<a
 									href={item.btnText}
 									target="_"
-									className="self-center mt-5"
+									className="self-center mt-1"
 								>
 									<button className="btn ">see project live</button>
 								</a>

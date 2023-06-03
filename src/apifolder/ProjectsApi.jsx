@@ -31,7 +31,7 @@ export const ProjectsApi = [
 		projectImg: project4,
 		ptitle: 'REACT HOOKS TODO LIST',
 		describtion:
-			'In this project I used react hooks (useState, useContext, and useReducer). You can add and delete, 				the total quantity will update, the book will also remain on the page on refresh.',
+			'In this project I used react hooks (useState, useContext, and useReducer). You can add and delete, the total quantity will update.',
 		btnText: 'https://react-context-todo-ten.vercel.app/',
 	},
 ];
