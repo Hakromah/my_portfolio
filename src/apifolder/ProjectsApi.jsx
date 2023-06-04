@@ -9,7 +9,7 @@ export const ProjectsApi = [
 		ptitle: 'PANCAKE SWAP',
 		describtion:
 			'Is a team project we built together by using Github to push and merge our responsiple components. ',
-		btnText: 'https://leafy-we-build.netlify.app/',
+		btnText: 'https://pancakeswap-nine.vercel.app/',
 	},
 
 	{
