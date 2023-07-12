@@ -14,10 +14,11 @@ export const ProjectsApi = [
 
 	{
 		projectImg: project2,
-		ptitle: 'E-COMMERCE',
+		ptitle: 'FOOD ORDERING APP',
 		describtion:
-			"Using anything new can be a bit of a challenge. Don't worry though, we've created a range of guides to help you get comfortable with PancakeSwap!",
-		btnText: 'https://next-project-phi-five.vercel.app/',
+			'I built this project with Next.js, and MongoDB is used for data management, Paypal payment method is applied, you can add the item to the cart and check it out',
+		btnText: 'https://github.com/Hakromah/doner_app',
+		//btnText: 'https://next-project-phi-five.vercel.app/',
 	},
 
 	{
