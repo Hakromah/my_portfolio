@@ -34,7 +34,7 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
 	return (
-		<section id="projects" className="pt-24 pb-32">
+		<section id="projects" className="pt-16 pb-48">
 			{/* HEADINGS */}
 			<motion.div
 				className="md:w-2/4 mx-auto text-center pt-0"
@@ -79,7 +79,7 @@ const Projects = () => {
 							key={index}
 							className="hover:ease-in-out hover:overflow-hidden
 							flex justify-center items-center duration-500
-							max-w-[400px] h-[350px] px-4  relative mb-6"
+							max-w-[400px] h-[350px] px-4  relative mb-6 pb-12"
 						>
 							<div
 								className="absolute h-full w-full opacity-0 hover:opacity-90

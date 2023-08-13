@@ -11,7 +11,7 @@ const Landing = ({ setSelectedPage }) => {
 	return (
 		<section
 			id="home"
-			className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10"
+			className="md:flex md:justify-between md:items-center md:h-full gap-16 py-10 mt-10"
 		>
 			<motion.div
 				initial={{ opacity: 1 }}
@@ -83,7 +83,7 @@ const Landing = ({ setSelectedPage }) => {
 					}}
 				>
 					<p className="text-3xl md:text-4xl font-playfair z-10 text-center md:text-start mb-6">
-						Hi, my name's {' '}
+						Hi, my name's{' '}
 						<span
 							className="xs:relative xs:text-blue-400 xs:font-semibold z-20
 								before:absolute before:-left-[25px]

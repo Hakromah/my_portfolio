@@ -10,7 +10,7 @@ const MySkills = () => {
 	return (
 		<section id="skills" className="pt-2 pb-24">
 			{/* HEADER AND IMAGE SECTION */}
-			<div className="md:flex md:justify-between md:gap-16 mt-32">
+			<div className="md:flex md:justify-between md:gap-16 mt-3">
 				<motion.div
 					className="md:w-1/3"
 					initial="hidden"
@@ -83,7 +83,7 @@ const MySkills = () => {
 
 				{/* INNOVATIVE */}
 				<motion.div
-					className="md:w-1/3 mt-10 px-6"
+					className="md:w-1/3 mt-10 px-5"
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true, amount: 0.5 }}
@@ -107,7 +107,7 @@ const MySkills = () => {
 
 				{/* IMAGINATIVE */}
 				<motion.div
-					className="md:w-1/3 mt-10 px-6 pt-3"
+					className="md:w-1/3 mt-10 px-5 pt-4"
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true, amount: 0.5 }}
@@ -117,13 +117,13 @@ const MySkills = () => {
 						visible: { opacity: 1, y: 0 },
 					}}
 				>
-					<div className="relative">
+					<div className="relative mb-5">
 						<div className="flex flex-col justify-center items-center second_bg z-10 mx-auto bg-gradient-rainblue">
-							<p className="font-playfair font-semibold text-3xl mt-3 px-6">
+							<p className="font-playfair font-semibold text-3xl mt-2 px-6">
 								Backend Features
 							</p>
-							<p className="mt-5 px-6 h-[120px] text-2xl">
-								Node.js(Express), Firebase
+							<p className="mt-2 px-6 min-h-[90px] text-2xl pb-1">
+								Node.js(Express), Firebase, MongoDB, strapi, stripe...
 							</p>
 						</div>
 					</div>

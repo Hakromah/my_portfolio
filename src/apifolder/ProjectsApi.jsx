@@ -2,6 +2,7 @@ import project1 from '../assets/project-1.jpg';
 import project2 from '../assets/e-commerce.jpg';
 import project3 from '../assets/construction.jpg';
 import project4 from '../assets/booklist.jpg';
+import project5 from '../assets/full-stack-ecommerce.jpg';
 
 export const ProjectsApi = [
 	{
@@ -34,5 +35,12 @@ export const ProjectsApi = [
 		describtion:
 			'In this project I used react hooks (useState, useContext, and useReducer). You can add and delete, the total quantity will update.',
 		btnText: 'https://react-context-todo-ten.vercel.app/',
+	},
+	{
+		projectImg: project5,
+		ptitle: 'FULL STACK E-COMMERCE',
+		describtion:
+			'I built this full stack e-commerce app with Strapi for backend data management, and Strape for payment method. Many technologies were used... ',
+		btnText: 'https://shoes-frontend-gr1j.vercel.app/',
 	},
 ];

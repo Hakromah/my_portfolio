@@ -20,7 +20,7 @@ const Contact = () => {
 	};
 
 	return (
-		<section id="contact" className="py-48">
+		<section id="contact" className="pt-32">
 			{/* HEADINGS */}
 			<motion.div
 				className="flex justify-end w-full"
@@ -77,7 +77,7 @@ const Contact = () => {
 						method="POST"
 					>
 						<input
-							className="w-full bg-indigo-300 font-semibold placeholder-opaque-black p-3 outline-red"
+							className="w-full bg-indigo-200 text-black font-semibold placeholder-opaque-black p-3 outline-red"
 							type="text"
 							placeholder="NAME"
 							{...register('email', {
@@ -88,14 +88,20 @@ const Contact = () => {
 						{errors.email && (
 							<p className="mt-1 text-red">
 								{errors.email.type === 'required' &&
-									'The filed is required.'}
+								<span className="text-red-600">
+								The filed is required!
+									</span>
+									}
 								{errors.email.type === 'maxLength' &&
-									'Max length is 100 char.'}
+								<span className="text-red-600">
+								Max length is 100 char!
+									</span>
+									}
 							</p>
 						)}
 
 						<input
-							className="w-full bg-indigo-300 font-semibold placeholder-opaque-black p-3 mt-5 outline-red"
+							className="w-full bg-indigo-200 text-black font-semibold placeholder-opaque-black p-3 mt-5 outline-red"
 							type="email"
 							placeholder="EMAIL"
 							{...register('email', {
@@ -105,15 +111,21 @@ const Contact = () => {
 						/>
 						{errors.email && (
 							<p className="mt-1 text-red">
-								{errors.email.type === 'required' &&
-									'The filed is required.'}
-								{errors.email.type === 'pattern' &&
-									'Invalid email address.'}
+								{errors.email.type === 'required' && (
+									<span className="text-red-600">
+										The filed is required.
+									</span>
+								)}
+								{errors.email.type === 'pattern' && (
+									<span className="text-red-600">
+										Invalid email address.
+									</span>
+								)}
 							</p>
 						)}
 
 						<textarea
-							className="w-full bg-indigo-300 font-semibold placeholder-opaque-black p-3 mt-5 outline-red transition duration-100"
+							className="w-full bg-indigo-200 text-black font-semibold placeholder-opaque-black p-3 mt-5 outline-red transition duration-100"
 							type="text"
 							placeholder="MESSAGE"
 							rows="4"
@@ -125,10 +137,16 @@ const Contact = () => {
 						/>
 						{errors.message && (
 							<p className="mt-1 text-red">
-								{errors.message.type === 'required' &&
-									'The filed is required.'}
-								{errors.message.type === 'maxLength' &&
-									'Max length is 2000 char.'}
+								{errors.message.type === 'required' && (
+									<span className="text-red-600">
+										The filed is required!
+									</span>
+								)}
+								{errors.message.type === 'maxLength' && (
+									<span className="text-red-600">
+										Max length is 2000 char!
+									</span>
+								)}
 							</p>
 						)}
 
