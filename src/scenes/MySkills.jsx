@@ -28,7 +28,7 @@ const MySkills = () => {
 					<LineGradient width="1/3" />
 					<p className="mt-10 mb-7">
 						I am familiar with the following languages, frameworks and
-						more. Hardworking and passionate job seeker with strong
+						more. Hardworking, passionate, job seeker with strong
 						organizational skills eager to secure entry-level Front End
 						Developer position. Ready to help team achieve company goals.
 					</p>
