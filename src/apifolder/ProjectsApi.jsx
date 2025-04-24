@@ -3,8 +3,16 @@ import project2 from '../assets/e-commerce.jpg';
 import project3 from '../assets/construction.jpg';
 import project4 from '../assets/booklist.jpg';
 import project5 from '../assets/full-stack-ecommerce.jpg';
+import project6 from '../assets/project-6.png';
 
 export const ProjectsApi = [
+	{
+		projectImg: project6,
+		ptitle: 'PROJECT MANAGEMENT SYSTEM',
+		describtion:
+			'This is a JAVA & SPRING BOOT project I built with vite and tailwindcss, You can sign up and log in, Create projects and add tasks, invite team members, and assign tasks to them. Also, you can add comments to the tasks. There is also a chat section. ',
+		btnText: 'https://pmsystem-react.vercel.app/',
+	},
 	{
 		projectImg: project1,
 		ptitle: 'PANCAKE SWAP',
