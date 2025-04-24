@@ -3,7 +3,7 @@ import project2 from '../assets/e-commerce.jpg';
 import project3 from '../assets/construction.jpg';
 import project4 from '../assets/booklist.jpg';
 import project5 from '../assets/full-stack-ecommerce.jpg';
-import project6 from '../assets/project-6.png';
+import project6 from '../assets/project6.png';
 
 export const ProjectsApi = [
 	{

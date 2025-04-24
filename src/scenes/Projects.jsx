@@ -64,7 +64,7 @@ const Projects = () => {
 			{/* PROJECTS */}
 			<div className="flex justify-center flex-wrap">
 				<motion.div
-					className="flex-col gap-6 sm:grid sm:grid-cols-3 sm:h-full"
+					className="flex-col flex gap-10 md:gap-6 sm:grid sm:grid-cols-3 sm:h-full"
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true, amount: '0.5' }}
@@ -77,21 +77,21 @@ const Projects = () => {
 					{ProjectsApi.map((item, index) => (
 						<div
 							key={index}
-							className="hover:ease-in-out hover:overflow-hidden
-							flex justify-center items-center duration-500
-							max-w-[400px] h-[350px] px-4  relative mb-6 pb-12"
+							className="md:hover:ease-in-out group md:hover:overflow-hidden
+							flex flex-col justify-center items-center duration-500
+							max-w-[400px] md:h-[350px] relative"
 						>
 							<div
-								className="absolute h-full w-full opacity-0 hover:opacity-90
-								 transition duration-500 bg-purple-300 z-30 flex flex-col justify-start items-start
-								 text-center p-12 text-deep-blue"
+								className="md:absolute relative h-full w-full md:opacity-0 md:hover:opacity-90
+								 transition duration-500 bg-[#ececec] md:bg-white z-30 flex flex-col justify-start items-start
+								 text-center p-6 md:p-12 text-deep-blue order-2"
 							>
-								<h1 className="text-2xl font-playfair font-semibold">
+								<h1 className="text-2xl md:translate-y-[10px] md:group-hover:translate-y-0 md:duration-[900ms] font-playfair font-semibold">
 									{item.ptitle}
 								</h1>
 								<h2
-									className="flex justify-start border-2 rounded-md border-t-fuchsia-950
-								mx-auto pb-4 text-deep-blue mt-6"
+									className="flex justify-start rounded-md border-t-fuchsia-950
+								mx-auto pb-4 text-deep-blue mt-6 md:max-h-[400px] md:overflow-y-auto md:bg-white/50  md:h-full"
 								>
 									{item.describtion}
 								</h2>
@@ -100,11 +100,11 @@ const Projects = () => {
 									target="_"
 									className="self-center mt-1"
 								>
-									<button className="btn ">see project live</button>
+									<button className="btn mt-4">see project live</button>
 								</a>
 							</div>
 							<img
-								className="w-[100%] h-[100%] "
+								className="w-[100%] h-[100%] order-1 object-cover"
 								src={item.projectImg}
 								alt="project_images"
 							/>
