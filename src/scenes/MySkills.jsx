@@ -28,8 +28,8 @@ const MySkills = () => {
 					<LineGradient width="1/3" />
 					<p className="mt-10 mb-7">
 						I am familiar with the following languages, frameworks and
-						more. Hardworking, passionate, job seeker with strong
-						organizational skills eager to secure entry-level Front End
+						more. Hardworking and passionate job seeker with strong
+						organizational skills eager to secure entry-level Java, Spring Boot
 						Developer position. Ready to help team achieve company goals.
 					</p>
 				</motion.div>
@@ -57,7 +57,31 @@ const MySkills = () => {
 
 			{/* Skills */}
 			<div className="md:flex justify-between gap-25">
-				{/* EXPERIENCE */}
+				{/* BACKEND */}
+				<motion.div
+					className="md:w-1/3 mt-10 px-5 pt-4"
+					initial="hidden"
+					whileInView="visible"
+					viewport={{ once: true, amount: 0.5 }}
+					transition={{ delay: 0.7, duration: 0.5 }}
+					variants={{
+						hidden: { opacity: 0, y: 50 },
+						visible: { opacity: 1, y: 0 },
+					}}
+				>
+					<div className="relative mb-5">
+						<div className="flex flex-col justify-center items-center second_bg z-10 mx-auto bg-gradient-rainblue">
+							<p className="font-playfair font-semibold text-3xl mt-2 px-6">
+								Backend Features
+							</p>
+							<p className="mt-2 px-6 min-h-[120px] text-2xl pb-1">
+								Java, Spring Boot, Microservices, MySQL, Postgresql, MongoDB, strapi, stripe...
+							</p>
+						</div>
+					</div>
+				</motion.div>
+
+				{/* FRONTEND */}
 				<motion.div
 					className="md:w-1/3 mt-10 px-6 h-"
 					initial="hidden"
@@ -72,7 +96,7 @@ const MySkills = () => {
 					<div className="relative">
 						<div className="second_bg mx-auto bg-gradient-rainblue">
 							<p className="font-playfair font-semibold text-3xl mt-3 px-6 pt-4">
-								Familiar with
+								Frontend Features
 							</p>
 							<p className="mt-3 justify-center text-2xl px-6 pb-8 min-h-[120px]">
 								Javascript, React.js, Typescript, Next.js
@@ -81,7 +105,7 @@ const MySkills = () => {
 					</div>
 				</motion.div>
 
-				{/* INNOVATIVE */}
+				{/* FRONTEND TECHNOLOGIES */}
 				<motion.div
 					className="md:w-1/3 mt-10 px-5"
 					initial="hidden"
@@ -100,30 +124,6 @@ const MySkills = () => {
 							</p>
 							<p className="mt-2 px-6 min-h-[90px] text-xl pb-6">
 								HTML, CSS, SASS, Tailwind, Bootstrap, nmp
-							</p>
-						</div>
-					</div>
-				</motion.div>
-
-				{/* IMAGINATIVE */}
-				<motion.div
-					className="md:w-1/3 mt-10 px-5 pt-4"
-					initial="hidden"
-					whileInView="visible"
-					viewport={{ once: true, amount: 0.5 }}
-					transition={{ delay: 0.7, duration: 0.5 }}
-					variants={{
-						hidden: { opacity: 0, y: 50 },
-						visible: { opacity: 1, y: 0 },
-					}}
-				>
-					<div className="relative mb-5">
-						<div className="flex flex-col justify-center items-center second_bg z-10 mx-auto bg-gradient-rainblue">
-							<p className="font-playfair font-semibold text-3xl mt-2 px-6">
-								Backend Features
-							</p>
-							<p className="mt-2 px-6 min-h-[90px] text-2xl pb-1">
-								Node.js(Express), Firebase, MongoDB, strapi, stripe...
 							</p>
 						</div>
 					</div>

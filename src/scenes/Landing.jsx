@@ -7,7 +7,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Landing = ({ setSelectedPage }) => {
 	const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)');
-
 	return (
 		<section
 			id="home"
@@ -95,7 +94,7 @@ const Landing = ({ setSelectedPage }) => {
 					<p className="text-2xl md:text-3xl font-playfair font-semibold mb-5">
 						I'm a{' '}
 						<span className="text-xl md:text-2xl text-green-300">
-							FRONT-END DEVELOPER
+							SPRING BOOT - REACT FULLSTACK DEVELOPER
 						</span>
 					</p>
 				</motion.div>
